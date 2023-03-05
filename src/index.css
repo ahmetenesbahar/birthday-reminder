@@ -38,6 +38,7 @@ body {
 }
 .person svg {
   width: 25px;
+  cursor: pointer;
 }
 .person img {
   width: 100px;

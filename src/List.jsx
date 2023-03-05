@@ -1,6 +1,6 @@
 import React from "react";
 
-function List({ people }) {
+function List({ people, handleDelete }) {
   return (
     <>
       {people.map((person) => {
@@ -16,6 +16,7 @@ function List({ people }) {
               height="48"
               viewBox="0 96 960 960"
               width="48"
+              onClick={() => handleDelete(person.id)}
             >
               <path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
             </svg>
