@@ -14,7 +14,7 @@ git clone https://github.com/ahmetenesbahar/birthday-reminder.git
 ## Ekran Görüntüleri
 
 <div>
-<img src="">
+<img src="https://github.com/ahmetenesbahar/birthday-reminder/blob/main/src/birthday-reminder.png">
 
 </div>
 
